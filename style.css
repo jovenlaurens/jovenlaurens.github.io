@@ -623,7 +623,7 @@ section,
 }
 
 .skills__img { 
-    width: 90%;
+    width: 90vw;
     max-width: 120px;
     transition: all 0.3s;
     filter: contrast(90%);
@@ -636,6 +636,8 @@ section,
 }
 
 .skills__img-wrapper {
+    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
